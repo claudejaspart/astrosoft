@@ -1,4 +1,5 @@
 const calendar = require('./libs/calendar');
+const time = require('./libs/time')
 
 
-console.log(calendar.addDays([1954,6,30],10000))
+console.log(time.deltaUTDT(2020))
